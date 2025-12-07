@@ -99,7 +99,40 @@ jobs:
 ### Thank You Dear
 
 > DEVELOPER OF JINXX-MD 
-- [Lord Malvin ](https://github.com/techlord01)
+- [ ░𝐉░𝐔░𝐀░𝐍░𝐈░𝐗░ 𝐈𝐈 ](https://github.com/polylbs1-max)
+- Creater and Owner Of JINXX-MD
+
+> JINXX-MD Helper
+- [░𝐉░𝐔░𝐀░𝐍░𝐈░𝐗░ 𝐈𝐈](https://github.com/polylbs1-max)
+- For helping in bot plugin files.
+---
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
+```
+<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+
+### Thank You Dear
+
+> DEVELOPER OF JINXX-MD 
+- [Lord Malvin
+-  ](https://github.com/techlord01)
 - Creater and Owner Of JINXX-MD
 
 > JINXX-MD Helper
